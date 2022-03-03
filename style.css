@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    font-size: 1.3rem;
+    margin: 20px;
+    padding: 20px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+h1,h4 {
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  color: rgb(138, 43, 43);
+}
+.HCM_Img img {
+  display: block;
+  width: 600px;
+  margin: 40px auto;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  box-shadow: 2px 3px rgb(181, 221, 163);
+}
+.HCM_Img p{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.HCM_Img>p{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(47, 94, 9);
+}
+section{
+    margin-top: 40px;
+}
+footer{
+    background-color: antiquewhite;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}
