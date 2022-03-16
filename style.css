@@ -1,18 +1,19 @@
 * {
   box-sizing: border-box;
 }
-body{
-    font-size: 1.3rem;
-    margin: 20px;
-    padding: 20px 40px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    line-height: 1.8rem;
-    background-image: url(./images/VN_Map.jpeg);
-    background-size: cover;
-    object-fit: cover;
+body {
+  font-size: 1.3rem;
+  margin: 20px;
+  padding: 20px 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  line-height: 1.8rem;
+  background-image: url(./images/VN_Map.jpeg);
+  background-size: cover;
+  object-fit: cover;
 }
-h1,h4 {
+h1,
+h4 {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -29,44 +30,43 @@ h1 {
   border: 1px solid darkblue;
   border-radius: 5px;
   box-shadow: 2px 3px rgb(181, 221, 163);
+  filter: brightness(130%);
 }
-.HCM_Img p{
-    text-align: center;
-    font-size: 1.8rem;
+.HCM_Img p {
+  text-align: center;
+  font-size: 1.8rem;
 }
-.HCM_Img>p{
-    font-size: 1.3rem;
-    font-style: italic;
-    color: rgb(29, 61, 4);
-    font-size: 1.5rem;
+.HCM_Img > p {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: rgb(29, 61, 4);
+  font-size: 1.5rem;
 }
-article{
+article {
   display: inline-block;
 }
-article a{
+article a {
   color: blue;
 }
-article a:visited{
+article a:visited {
   color: rgb(68, 38, 38);
 }
-article a:hover{
+article a:hover {
   color: goldenrod;
 }
-article a:active{
+article a:active {
   color: green;
 }
-article div{
+article div {
   width: 30vmax;
   height: 90vh;
   display: inline-block;
   overflow: hidden;
-
 }
-article div:nth-child(2)
-{
+article div:nth-child(2) {
   margin: 0 20px;
 }
-article img{
+article img {
   width: 30vmax;
   height: 48vh;
   object-fit: cover;
@@ -75,14 +75,14 @@ article img{
   box-shadow: 2px 2px gray;
   margin-bottom: 20px;
 }
-article img:hover{
-  transform:translateY(-10px);
- border: 2px solid goldenrod;
+article img:hover {
+  transform: translateY(-10px);
+  border: 2px solid goldenrod;
 }
-footer{
+footer {
   width: 93vmax;
-    background-color: antiquewhite;
-    margin-top: 60px;
-    text-align: center;
-    padding: 10px;
+  background-color: antiquewhite;
+  margin-top: 60px;
+  text-align: center;
+  padding: 10px;
 }
