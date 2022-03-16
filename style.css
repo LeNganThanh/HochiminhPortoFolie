@@ -15,6 +15,7 @@ h1,h4 {
 h1 {
   text-transform: uppercase;
   color: rgb(138, 43, 43);
+  text-shadow: 1px 1px rgb(29, 27, 27);
 }
 .HCM_Img img {
   display: block;
@@ -36,7 +37,44 @@ h1 {
 section{
     margin-top: 40px;
 }
+article{
+  display: inline-block;
+  margin-top: 30px;
+}
+article a{
+  color: blue;
+}
+article a:visited{
+  color: rgb(68, 38, 38);
+}
+article a:hover{
+  color: goldenrod;
+}
+article a:active{
+  color: green;
+}
+article div{
+  width: 30vmax;
+  height: 90vh;
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+article div:nth-child(2)
+{
+  margin: 0 20px;
+}
+article img{
+  width: 30vmax;
+  height: 49vh;
+  object-fit: cover;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px gray;
+}
 footer{
+  width: 93vmax;
     background-color: antiquewhite;
     margin-top: 60px;
     text-align: center;
