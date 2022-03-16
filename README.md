@@ -1,2 +1,2 @@
 # Ho Chi Minh
-1st President of Vietnam
+The first President of Republic of Vietnam
