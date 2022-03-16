@@ -40,12 +40,8 @@ h1 {
     color: rgb(29, 61, 4);
     font-size: 1.5rem;
 }
-section{
-    margin-top: 40px;
-}
 article{
   display: inline-block;
-  margin-top: 30px;
 }
 article a{
   color: blue;
@@ -66,7 +62,6 @@ article div{
   overflow: hidden;
 
 }
-
 article div:nth-child(2)
 {
   margin: 0 20px;
@@ -78,6 +73,11 @@ article img{
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 2px 2px gray;
+  margin-bottom: 20px;
+}
+article img:hover{
+  transform:translateY(-10px);
+ border: 2px solid goldenrod;
 }
 footer{
   width: 93vmax;
