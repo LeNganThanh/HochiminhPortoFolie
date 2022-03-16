@@ -29,8 +29,8 @@ h1 {
   margin: 40px auto;
   border: 1px solid darkblue;
   border-radius: 5px;
-  box-shadow: 2px 3px rgb(181, 221, 163);
   filter: brightness(130%);
+  box-shadow: 5px 5px rgb(141, 140, 79);
 }
 .HCM_Img p {
   text-align: center;
