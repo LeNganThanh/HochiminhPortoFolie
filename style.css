@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body::before{
-  
-  -webkit-filter: blur(15px);
-  filter: blur(15px);
-}
 body{
     font-size: 1.3rem;
     margin: 20px;
