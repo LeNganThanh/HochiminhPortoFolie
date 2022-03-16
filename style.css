@@ -13,7 +13,7 @@ body {
   object-fit: cover;
 }
 h1,
-h4 {
+h2 {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -41,6 +41,23 @@ h1 {
   font-style: italic;
   color: rgb(29, 61, 4);
   font-size: 1.5rem;
+}
+.info{
+  margin-top: 10vh;
+  counter-reset: counter-name;
+}
+.info li{
+  list-style-type:circle;
+}
+.info h3::before{
+/*   content: " * ";
+  color: red;
+  padding-top: 20px;
+  margin-right: 15px;
+  font-size: 2rem;
+ */
+counter-increment: counter-name;
+content: counter(counter-name) ' - ';
 }
 article {
   display: inline-block;
@@ -81,7 +98,7 @@ article img:hover {
 }
 footer {
   width: 93vmax;
-  background-color: antiquewhite;
+  background-color: rgba(250, 235, 215, 0.822);
   margin-top: 60px;
   text-align: center;
   padding: 10px;
