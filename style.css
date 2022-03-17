@@ -44,14 +44,14 @@ h1 {
 }
 .info{
   margin-top: 10vh;
-  counter-reset: counter-name;
+  counter-reset: counter-h3;
 }
 .info li{
   list-style-type:circle;
 }
 .info h3::before{
-counter-increment: counter-name;
-content: counter(counter-name) ' - ';
+counter-increment: counter-h3;
+content: counter(counter-h3) ' - ';
 }
 article {
   display: inline-block;
@@ -92,7 +92,7 @@ article img:hover {
 }
 footer {
   width: 93vmax;
-  background-color: rgba(250, 235, 215, 0.822);
+  background-color: rgba(114, 67, 5, 0.158);
   margin-top: 60px;
   text-align: center;
   padding: 10px;
