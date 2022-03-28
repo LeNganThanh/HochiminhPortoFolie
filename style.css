@@ -30,7 +30,9 @@ h1 {
   border: 1px solid darkblue;
   border-radius: 5px;
   filter: brightness(130%);
-  box-shadow: 5px 5px rgb(141, 140, 79);
+  padding: 20px;
+  background: rgba(12, 53, 5, 0.062);
+
 }
 .HCM_Img p {
   text-align: center;
